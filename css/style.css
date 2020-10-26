@@ -1,0 +1,41 @@
+body
+{
+	background-color: #1e1e1e;
+}
+section.parallax{
+	position: relative;
+	width: 100%;
+	padding:40px 0;
+	min-height: 300px;
+	background-image: url('../images/bg_parallax.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+section.parallax > .center{
+	position: relative;
+	z-index: 2;
+	max-width: 960px;
+	color: white;
+	text-align: center;
+	margin-left: 10%;
+}
+
+section.parallax h2{
+	text-align: center;
+}
+section.parallax p{
+	text-align: center
+}
+
+.overlay-parallax{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgba(20,20,20,0.6);
+
+}
